@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Chitietthietbi">
+    <TextView
+        android:textSize="30dp"
+        android:gravity="center"
+        android:text="Cài đặt ngưỡng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TableRow
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+        <TextView
+            android:layout_width="150dp"
+            android:gravity="left"
+            android:textSize="20dp"
+            android:text="Thiết bị" />
+        <TextView
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_width="250dp"
+            android:text="5455aaabc"/>
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+        <TextView
+            android:layout_width="150dp"
+            android:gravity="left"
+            android:textSize="20dp"
+            android:text="Trạng thái" />
+        <TextView
+            android:textColor="#28E212"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_width="250dp"
+            android:text="Hoạt động"/>
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+        <TextView
+            android:layout_width="150dp"
+            android:gravity="left"
+            android:textSize="20dp"
+            android:text="Số dư tài khoản" />
+        <TextView
+            android:textColor="#FF0326"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_width="250dp"
+            android:text="500000 VNĐ"/>
+    </TableRow>
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+        <LinearLayout
+            android:padding="5dp"
+            android:orientation="vertical"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:text="Nhiệt độ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:text="Độ ẩm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:text="Âm thanh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="20dp"
+                android:text="Ánh sáng"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:gravity="center"
+                android:textColor="#fff"
+                android:background="#77C40F"
+                android:textSize="20dp"
+                android:layout_marginLeft="120dp"
+                android:text="29 độ C"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:background="#77C40F"
+                android:textSize="20dp"
+                android:layout_marginLeft="120dp"
+                android:text="90 %"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:background="#77C40F"
+                android:textSize="20dp"
+                android:layout_marginLeft="120dp"
+                android:text="9000 Hz"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:background="#77C40F"
+                android:textSize="20dp"
+                android:layout_marginLeft="120dp"
+                android:text="1.6 Lux"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:textColor="#000"
+        android:layout_marginLeft="20dp"
+        android:text="Ngưỡng cài đặt"
+        android:textSize="22dp" />
+    <TableRow
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+        <TextView
+            android:layout_width="150dp"
+            android:gravity="left"
+            android:textSize="20dp"
+            android:text="Nhiệt độ" />
+        <TextView
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_width="250dp"
+            android:text="26 độ C - 30 độ C"/>
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+        <TextView
+            android:layout_width="150dp"
+            android:gravity="left"
+            android:textSize="20dp"
+            android:text="Độ ẩm" />
+        <TextView
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_width="250dp"
+            android:text="80 %RH - 95 %RH"/>
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+        <TextView
+            android:layout_width="150dp"
+            android:gravity="left"
+            android:textSize="20dp"
+            android:text="Âm thanh" />
+        <TextView
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_width="250dp"
+            android:text="2,000Hz-10,000Hz"/>
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+        <TextView
+            android:layout_width="150dp"
+            android:gravity="left"
+            android:textSize="20dp"
+            android:text="Ánh sáng" />
+        <TextView
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_width="250dp"
+            android:text="0-2 Lux"/>
+    </TableRow>
+    <TableRow
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+        <Button
+            android:textSize="20dp"
+            android:background="@color/colorBlue"
+            android:layout_width="200dp"
+            android:text="Cài đặt"
+            android:textColor="#fff"/>
+    </TableRow>
+
+</TableLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Menu"
+        android:textSize="30dp"
+     />
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:background="@drawable/table"
+            android:orientation="vertical"
+            android:layout_width="250dp"
+            android:layout_height="450dp">
+            <ImageView
+                android:id="@+id/imgV"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:background="@drawable/bg"
+                android:layout_width="100dp"
+                android:layout_height="100dp"/>
+            <TextView
+                android:id="@+id/twName"
+                android:textSize="25dp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:text="Nguyễn Văn A"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btnDanhSachThietBi"
+                android:text="Danh sách thiết bị"
+                android:layout_marginLeft="10dp"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"/>
+            <Button
+                android:id="@+id/btnUpdatethongtin"
+                android:text="Cập nhật thông tin"
+                android:layout_marginLeft="10dp"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"/>
+
+            <Button
+                android:id="@+id/btnDangXuat"
+                android:text="Đăng xuất"
+                android:layout_marginLeft="10dp"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="4dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:background="@drawable/bg2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

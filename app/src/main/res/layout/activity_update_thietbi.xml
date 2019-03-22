@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Themthietbi">
+    <TextView
+        android:textSize="30dp"
+        android:gravity="center"
+        android:text="Cập nhật thiết bị"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tên thiết bị "
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/edtUpdateTenthietbi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Trạng thái"
+                android:textSize="20dp" />
+
+            <Button
+                android:gravity="center"
+                android:background="#71D106"
+                android:textColor="#fff"
+                android:text="Đang hoạt động"
+                android:layout_marginLeft="100dp"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mã thiết bị "
+            android:textSize="20dp" />
+        <EditText
+            android:layout_marginTop="10dp"
+            android:id="@+id/edtUpdateMathietbi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tên thiết bị "
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/edtAddMkthietbi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1" />
+        <Button
+            android:id="@+id/btnUpdatethietbi"
+            android:text="Cập nhật"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:background="@color/colorBlue"
+            android:textColor="#fff"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

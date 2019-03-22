@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+    <ImageView
+        android:background="@drawable/mangekyousharingan"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="150dp" />
+    <LinearLayout
+        android:layout_margin="25dp"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Email"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_marginTop="15dp"
+            android:id="@+id/edtEmailLogin"
+            android:maxLines="1"
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="15dp"
+            android:text="Mật khẩu"
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/edtPassLogin"
+            android:maxLines="1"
+            android:layout_marginTop="15dp"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:textSize="20dp"
+            android:id="@+id/btnLogin"
+            android:layout_marginTop="10dp"
+            android:text="Đăng nhập"
+            android:textColor="#fff"
+            android:background="@color/colorBlue"
+            android:layout_gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btnDangkyLogin"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/iconregistry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btnQuenmatkhauLogin"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/quenmatkhau"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
